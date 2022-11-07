@@ -1,0 +1,125 @@
+@charset 'utf-8';
+html{
+	font-family: 'Noto Sans KR';
+	font-size: 14px;
+	letter-spacing: -0.08em;
+}
+a{
+	text-decoration: None;
+	color: white;
+}
+body{
+	margin:0px;
+	font-family: 'Noto Sans KR', sans-serif;
+	overflow-x: hidden;
+    background-image: url("../image/blackwallpaper.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+	height: 500vh;
+}
+.global-nav{
+	height:52px;
+	margin-left:40px;
+	margin-right:40px;
+    margin-top:5px;
+    color:white;
+}
+.global-nav-link{
+	height:100%;
+	display: flex;
+	align-items: center;
+	max-width : 1000px;
+	margin : 0 auto;
+    padding-bottom:5px;
+}
+.container1{
+	height:52px;
+	margin-left:40px;
+	margin-right:40px;
+}
+.global-nav-item{
+	margin-left: 2em;
+	text-decoration: none;
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.logo{
+	object-fit: cover;
+	width:70px;
+	margin-top: 8px;
+}
+nav #about{
+	margin-left: auto;
+}
+.content{
+	height:52px;
+	margin-left:40px;
+	margin-right:40px;
+}
+.content2{
+	height:100%;
+	align-items: center;
+	max-width : 1000px;
+	margin : 0 auto;
+}
+.d1{
+    font-size: 25px;
+    max-width : 1000px;
+    margin : 0 auto;
+    align-items: center;
+    margin-left:0px;
+}
+.d2{
+    font-size: 20px;
+    max-width : 1000px;
+    align-items: center;
+    text-align: center;
+    margin-left:0px;
+    font-weight: 300;
+    margin-top: 0px;
+    margin-bottom:0px;
+	color:white;
+}
+
+
+.local-nav{
+	height:52px;
+	margin-left:40px;
+	margin-right:40px;
+}
+.local-nav-link{
+	height:100%;
+	display: flex;
+	max-width : 1000px;
+	justify-content: space-between;
+	align-items: center;
+	margin : 0 auto;
+}
+.local-nav-item{
+	font-size: 13px;
+    font-weight: 300;
+}
+#global-nav-link{
+	border-bottom: None;
+}
+.circle {
+	margin: 0 auto;
+	width: 10px;
+	height: 10px;
+	border: None;
+	background-color:white;
+	border-radius: 50%;
+}
+.notnow{
+	color:rgb(197, 197, 197);
+	font-weight: 300;
+}
+.background{
+	position: sticky;
+	top: 0;
+	background-color: black;
+}
+p {
+	margin-bottom: 10px;
+}

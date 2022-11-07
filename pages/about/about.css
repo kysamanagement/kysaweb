@@ -1,0 +1,38 @@
+.local-nav{
+	height:52px;
+	margin-left:40px;
+	margin-right:40px;
+}
+.local-nav-link{
+	height:100%;
+	display: flex;
+	max-width : 1000px;
+	justify-content: space-between;
+	align-items: center;
+	margin : 0 auto;
+}
+.local-nav-item{
+	font-size: 13px;
+}
+#global-nav-link{
+	border-bottom: None;
+}
+.circle {
+	width: 10px;
+	height: 10px;
+	border: None;
+	background-color:white;
+	border-radius: 50%;
+}
+.d2{
+	color:white
+}
+#dis{
+	margin-top: 100px;
+}
+#dis2{
+	margin-top: 50px;
+}
+#p1{
+	margin-bottom: 650px;
+}

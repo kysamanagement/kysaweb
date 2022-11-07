@@ -1,0 +1,82 @@
+@charset 'utf-8';
+html{
+	font-family: 'Noto Sans KR';
+	font-size: 14px;
+	letter-spacing: -0.08em;
+}
+a{
+	text-decoration: None;
+	color: white;
+}
+body{
+	margin:0px;
+	font-family: 'Noto Sans KR', sans-serif;
+	height:100vh;
+	background-image: url("../image/indexwall.png");
+	background-size: cover;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+.global-nav{
+	height:52px;
+	margin-left:40px;
+	margin-right:40px;
+}
+.global-nav-link{
+	height:100%;
+	display: flex;
+	align-items: center;
+	max-width : 1000px;
+	margin : 0 auto;
+}
+.container1{
+	height:52px;
+	margin-left:40px;
+	margin-right:40px;
+}
+.text{
+	height:100%;
+	align-items: center;
+	max-width : 1000px;
+	margin : 0 auto;
+	margin-top:35vh;
+}
+.applybotton{
+	margin-top: 20px;
+	padding:10px;
+	padding-top: 5px;
+	padding-bottom: 7px;
+	background-color:rgba(256,256,256,0.2);
+	color: white;
+	font-weight: 400;
+	width:fit-content;
+}
+
+.logo{
+	object-fit: cover;
+	width:70px;
+	margin-top: 15px;
+}
+.global-nav-item{
+	max-width: 1000px;
+	margin-left: 2em;
+	color: white;
+	text-decoration: none;
+	margin-top: 15px;
+}
+.whitetext{
+	color: white;
+	letter-spacing: -0.3rem;
+	font-weight: 800;
+	font-size: 50px;
+}
+.text2{
+	color:white;
+	font-size: 20px;
+	font-weight: 300;
+	padding-left: 5px;
+	padding-top: 10px;
+}
+nav #about{
+	margin-left: auto;
+}
